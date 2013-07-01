@@ -1,5 +1,6 @@
 # open uri is like a harry potter book that you're writing a report on
-# the book is the big source, the you have the chapters.
+# the book is the big source, then you have the chapters. its like a web
+#you cant have a book without chapters and you cant have a report without a book.
 
 require 'open-uri'
 
