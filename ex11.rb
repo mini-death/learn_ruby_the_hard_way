@@ -1,3 +1,5 @@
+# age height and weight are all variables that you give the answer to.
+
 print "How old are you? "
 age = gets.chomp()
 print "How tall are you? "
