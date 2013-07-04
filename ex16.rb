@@ -1,4 +1,4 @@
-# control c means cancle (cancle the file erasing)
+# control c means cancel (cancel the file erasing)
 # and enter means to do it (erase the file)
 
 filename = ARGV.first
@@ -14,7 +14,7 @@ STDIN.gets
 
 puts "Opening the file..."
 target = File.open(filename, 'w')
-
+#truncate means to empty
 puts "Truncating the file.  Goodbye!"
 target.truncate(target.size)
 
