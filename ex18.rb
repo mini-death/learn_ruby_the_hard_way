@@ -12,13 +12,19 @@
 
 # * (asterisk) is called a "splat", a splat is in front of our arguments
 
-# puts_two accepts many arguments,
+# puts_two is a function, puts_two accepts arguments,
+#  puts_two will accept as many arguments as you want,
+# but it has to have at least two
+# puts_two accepts as many arguments as want because it says *args
+# that means that it will accept many arguments but it has to have at least 2
 def puts_two(*args)
   arg1, arg2 = args
   puts "arg1: #{arg1}, arg2: #{arg2}"
 end
 
 # ok, that *args is actually pointless, we can just do this
+# puts_two_again only accepts 2 arguments because in () it says arg1 and arg2
+# that means that it will only accept an arg1 and an arg2
 def puts_two_again(arg1, arg2)
   puts "arg1: #{arg1}, arg2: #{arg2}"
 end
