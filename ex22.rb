@@ -10,9 +10,7 @@ puts  = this word means put string, we use it when we put strings
 
 .  = period = we use this in a string when we want to end a sentence or to abbreviate long sets of words
 
-
-''  =
-
+''  = single quotes = these are the same as double quote except these won't run any code inside of them
 
 '  = apostrophe = we use these in strings when we abbreviate words like I'm or doesn't
 
@@ -26,9 +24,11 @@ puts  = this word means put string, we use it when we put strings
 
 -  = dash = we use this for subtraction or for negative numbers
 
+%  = modulo = in math this symbol is used for division
 
-%  =
+%d  = modulo d = this sign means digit, it's a variable for a number in []
 
+%s  = modulo s = this sign means string, it's a variable for what ever is in a string in[]
 
 <  = less than sign = we use this in math when we want to find out if something is less than something
 
@@ -50,20 +50,11 @@ _  = underscore = used in multi worded variables
 
 {}  = curly brackets = used in #{} variables
 
+[]  = square brackets = this sign is an array, it collects information
 
+end  = this word closes a block of code
 
-[]  = square brackets
-
-
-end  =
-
-
-
-formatter  =
-
-
-
-%s  = percent s =  this means "hold this spot, something is coming"
+formatter  =  this is just a variable you can use that you can pass percents to
 
 \n  = backslash n = this means new line
 
@@ -71,76 +62,42 @@ formatter  =
 
 \t = backslash t = this means tab
 
+<< = less than less than = this just means inject stuff into a variable
 
-<<MY_HERODOC =
+gets.chomp()  = this gets what ever the user typed in and cuts off the end (\n)
 
+print  = this just prints your code on the screen
 
-
-gets.chomp()  =
-
-
-
-print  =
-
-
-
-open uri  =
-
+open uri  = open uniform resource identifier
 
 ARGV  = ARGV is an argument variable that passes arguments through the ruby script
 
 (ARGV) first, second, third  = the three arguments you give argv
 
+$0  = dollar 0 =  this is just the name of the script that you are using
 
-$0  =
+STDIN.gets.chomp()  = standard input and the end gets cut off
 
+()  = parentheses = used for separating functions
 
-
-<<MESSAGE  =
-
-
-
-STDIN.gets.chomp()  =
-
-
-()  =
-
-
-target.write  =
-
+target.write  = this lets you write everything at once
 
 truncate  = it is unpacking a file
 
+target.close  = closes what ever file you had open
 
-target.close  =
+File.open  = opens a file
 
+output.closed/input.closed  = close the source of the info / close where you're putting the info
 
-
-File.open  =
-
-
-
-output.closed/input.closed  =
-
-
-
-
-indata  =
-
-
-
+indata  = a variable you define
 
 puts_two  = a function that accepts many arguments
 
 args  = arguments
 
-def  = define
+def  = defines functions
 
-
-
-IO::SEEK_SET  =
-
-
-
+IO::SEEK_SET  = this means go to this location
 
 =end
